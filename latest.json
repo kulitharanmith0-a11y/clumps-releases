@@ -1,60 +1,25 @@
 {
-  "version": "3.4",
-  "buildTime": 1795540312,
+  "version": "3.4.1",
+  "buildTime": 1795551766,
   "force": false,
-  "sha256": "513af50d37f0bd28184675f51eb7a834a1e13355635649e116fce1d1aef9892e",
-  "url": "https://github.com/kulitharanmith0-a11y/clumps-releases/releases/download/EchoclientV3.4/Clumps-fabric-1.21.11-29.0.0.1.jar",
-  "summary": "Improved Auto Mace Swap, Added Pearl Follow to Pearl Grapple (Grapple, Pearl Follow, Both modes + Follow Only On Key / Follow Key) and overhauled airborne & Elytra Mace PvP prediction (feet-anchored 0.6x0.6x0.6 gliding hitbox, pose-accurate self eye height, vanilla pearl tick physics), Restored classic Auto Anchor (Smart / Classic styles) hardened with ActionCoordinator slot/interact guards, crouch-safe ray checks, and clean packet flushing to prevent flags",
+  "sha256": "3b39e0f0513dc8253708fa686aae976b17d8d074725eb32c6a03810c805d9646",
+  "url": "https://github.com/kulitharanmith0-a11y/clumps-releases/releases/download/EchoclientV3.4.1/Clumps-fabric-1.21.11-29.0.0.1.jar",
+  "summary": "Auto Totem & Cursor Simulation, Trigger Bot, Discord Changelog Routing",
   "changes": [
     {
       "tag": "FIX",
-      "title": "Improved Auto Mace Swap",
-      "detail": "fixed true same-tick attribute swapping (no early Mace pre-swap losing cooldown/damage), upgraded airborne Stun Slam consistency (approach Axe pre-swap + 1-tick dive slam + ShieldBreaker yield), and enforced strict vanilla 3.0 reach with automatic 4.5-block Spear reach"
-    },
-    {
-      "tag": "NEW",
-      "title": "Added Pearl Follow to Pearl Grapple (Grapple, Pearl Follow, Both modes + Follow Only On Key / Follow Key) and overhauled airborne & Elytra Mace PvP prediction (feet-anchored 0.6x0.6x0.6 gliding hitbox, pose-accurate self eye height, vanilla pearl tick physics)",
-      "detail": ""
-    },
-    {
-      "tag": "UPD",
-      "title": "Restored classic Auto Anchor (Smart / Classic styles) hardened with ActionCoordinator slot/interact guards, crouch-safe ray checks, and clean packet flushing to prevent flags",
-      "detail": ""
-    },
-    {
-      "tag": "UPD",
-      "title": "Improved Auto Web prediction using smoothed entity velocity, latency/swap lead, and gravity landing snap",
-      "detail": ""
+      "title": "Auto Totem & Cursor Simulation",
+      "detail": "Fixed Cursor Simulation freezing on InventoryScreen (especially with StreamProof active) by running cursor movement on RenderTickEvent with a tick-completion failsafe, unlocking the cursor before sampling start coordinates, and reading the real screen origin so slots line up even with the Recipe Book open."
     },
     {
       "tag": "FIX",
-      "title": "Fixed Auto Drain draining your own water/lava in Enemy mode and resolved its conflict with Auto Web Auto Clear Self",
-      "detail": ""
+      "title": "Trigger Bot",
+      "detail": "Fixed Targets.shieldBreakActive getting permanently stuck after Auto Mace Swap / Mace Swap when Shield Breaker was disabled, prioritized crosshairTarget across custom Attack Distance settings, removed false fire/poison hurt-time stalls, and prevented block-break state from blocking attacks after moving onto a target."
     },
     {
       "tag": "FIX",
-      "title": "Fixed Trigger Bot intermittent non-attacking (rotation-ready & grass/cobweb occlusion checks) and removed Hit Mode while keeping Don't Break Blocks",
-      "detail": ""
-    },
-    {
-      "tag": "FIX",
-      "title": "Fixed Shield Breaker stun follow-up hit to wait properly for swap-back and fire reliably via ActionCoordinator",
-      "detail": ""
-    },
-    {
-      "tag": "UPD",
-      "title": "Improved Aim Assist Smooth mode with a dedicated legit critically-damped easing curve and smooth close-core deceleration",
-      "detail": ""
-    },
-    {
-      "tag": "FIX",
-      "title": "Fixed What's New update modal truncating descriptions by wrapping full multi-line cards cleanly",
-      "detail": ""
-    },
-    {
-      "tag": "UPD",
-      "title": "Renamed Dtap Setup to Auto Hit Crystal",
-      "detail": ""
+      "title": "Discord Changelog Routing",
+      "detail": "Updated CI workflow to route commit changelogs to channel 1537760129427185704 (DISCORDCOMMITWEBHOOKURL / DISCORDBOTTOKEN)."
     }
   ]
 }
