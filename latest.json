@@ -1,44 +1,59 @@
 {
-  "version": "3.3",
-  "buildTime": 1795508444,
+  "version": "3.4",
+  "buildTime": 1795540312,
   "force": false,
-  "sha256": "e801b9d4e00de2a1d679c7ac1053b76aa3c786d23f24d7d68e693e20949ca78d",
-  "url": "https://github.com/kulitharanmith0-a11y/clumps-releases/releases/download/EchoclientV3.3/Clumps-fabric-1.21.11-29.0.0.1.jar",
-  "summary": "Added Ghost Hand (World) to break or interact with cobwebs and custom selected blocks straight through players (Always / Hold Key, Players Only, Item Whitelist), Added Auto Drain (Combat) to automatically drain enemy water and lava sources using Empty Buckets, Cobwebs, or Solid Blocks with Legit / Silent swaps, rotations, and lake protection, Added Trigger Bot Hit Mode (Always, Only Crit, Prioritize Crit, Crits + Sprint) for full control over crit and sprint-hit timing",
+  "sha256": "513af50d37f0bd28184675f51eb7a834a1e13355635649e116fce1d1aef9892e",
+  "url": "https://github.com/kulitharanmith0-a11y/clumps-releases/releases/download/EchoclientV3.4/Clumps-fabric-1.21.11-29.0.0.1.jar",
+  "summary": "Improved Auto Mace Swap, Added Pearl Follow to Pearl Grapple (Grapple, Pearl Follow, Both modes + Follow Only On Key / Follow Key) and overhauled airborne & Elytra Mace PvP prediction (feet-anchored 0.6x0.6x0.6 gliding hitbox, pose-accurate self eye height, vanilla pearl tick physics), Restored classic Auto Anchor (Smart / Classic styles) hardened with ActionCoordinator slot/interact guards, crouch-safe ray checks, and clean packet flushing to prevent flags",
   "changes": [
     {
-      "tag": "NEW",
-      "title": "Added Ghost Hand (World) to break or interact with cobwebs and custom selected blocks straight through players (Always / Hold Key, Players Only, Item Whitelist)",
-      "detail": ""
+      "tag": "FIX",
+      "title": "Improved Auto Mace Swap",
+      "detail": "fixed true same-tick attribute swapping (no early Mace pre-swap losing cooldown/damage), upgraded airborne Stun Slam consistency (approach Axe pre-swap + 1-tick dive slam + ShieldBreaker yield), and enforced strict vanilla 3.0 reach with automatic 4.5-block Spear reach"
     },
     {
       "tag": "NEW",
-      "title": "Added Auto Drain (Combat) to automatically drain enemy water and lava sources using Empty Buckets, Cobwebs, or Solid Blocks with Legit / Silent swaps, rotations, and lake protection",
-      "detail": ""
-    },
-    {
-      "tag": "NEW",
-      "title": "Added Trigger Bot Hit Mode (Always, Only Crit, Prioritize Crit, Crits + Sprint) for full control over crit and sprint-hit timing",
-      "detail": ""
-    },
-    {
-      "tag": "NEW",
-      "title": "Added Trigger Bot Don't Break Blocks option while using Hold Attack (automatically yields to Ghost Hand when targeting cobwebs/blocks)",
+      "title": "Added Pearl Follow to Pearl Grapple (Grapple, Pearl Follow, Both modes + Follow Only On Key / Follow Key) and overhauled airborne & Elytra Mace PvP prediction (feet-anchored 0.6x0.6x0.6 gliding hitbox, pose-accurate self eye height, vanilla pearl tick physics)",
       "detail": ""
     },
     {
       "tag": "UPD",
-      "title": "Improved Aim Assist with a dedicated Hold Attack option and reliable keybind detection",
+      "title": "Restored classic Auto Anchor (Smart / Classic styles) hardened with ActionCoordinator slot/interact guards, crouch-safe ray checks, and clean packet flushing to prevent flags",
+      "detail": ""
+    },
+    {
+      "tag": "UPD",
+      "title": "Improved Auto Web prediction using smoothed entity velocity, latency/swap lead, and gravity landing snap",
       "detail": ""
     },
     {
       "tag": "FIX",
-      "title": "Fixed Spear Lunge Keypress mode not showing attack click inputs on CPS counters and Keystrokes overlays",
+      "title": "Fixed Auto Drain draining your own water/lava in Enemy mode and resolved its conflict with Auto Web Auto Clear Self",
+      "detail": ""
+    },
+    {
+      "tag": "FIX",
+      "title": "Fixed Trigger Bot intermittent non-attacking (rotation-ready & grass/cobweb occlusion checks) and removed Hit Mode while keeping Don't Break Blocks",
+      "detail": ""
+    },
+    {
+      "tag": "FIX",
+      "title": "Fixed Shield Breaker stun follow-up hit to wait properly for swap-back and fire reliably via ActionCoordinator",
       "detail": ""
     },
     {
       "tag": "UPD",
-      "title": "Unhid Pearl Grapple in the Utility category so it is directly configurable from ClickGUI",
+      "title": "Improved Aim Assist Smooth mode with a dedicated legit critically-damped easing curve and smooth close-core deceleration",
+      "detail": ""
+    },
+    {
+      "tag": "FIX",
+      "title": "Fixed What's New update modal truncating descriptions by wrapping full multi-line cards cleanly",
+      "detail": ""
+    },
+    {
+      "tag": "UPD",
+      "title": "Renamed Dtap Setup to Auto Hit Crystal",
       "detail": ""
     }
   ]
