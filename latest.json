@@ -1,50 +1,45 @@
 {
-  "version": "3.2",
-  "buildTime": 1795500933,
+  "version": "3.3",
+  "buildTime": 1795508444,
   "force": false,
-  "sha256": "53b1b0887847218218901ef61e26512382401ea0c9743645f16690b51d87910e",
-  "url": "https://github.com/kulitharanmith0-a11y/clumps-releases/releases/download/EchoclientV3.2/Clumps-fabric-1.21.11-29.0.0.1.jar",
-  "summary": "What's New Changelog Box, ClickGUI Update Pill, One-Click Cloud Releases",
+  "sha256": "e801b9d4e00de2a1d679c7ac1053b76aa3c786d23f24d7d68e693e20949ca78d",
+  "url": "https://github.com/kulitharanmith0-a11y/clumps-releases/releases/download/EchoclientV3.3/Clumps-fabric-1.21.11-29.0.0.1.jar",
+  "summary": "Added Ghost Hand (World) to break or interact with cobwebs and custom selected blocks straight through players (Always / Hold Key, Players Only, Item Whitelist), Added Auto Drain (Combat) to automatically drain enemy water and lava sources using Empty Buckets, Cobwebs, or Solid Blocks with Legit / Silent swaps, rotations, and lake protection, Added Trigger Bot Hit Mode (Always, Only Crit, Prioritize Crit, Crits + Sprint) for full control over crit and sprint-hit timing",
   "changes": [
     {
       "tag": "NEW",
-      "title": "What's New Changelog Box",
-      "detail": "Added an interactive frosted-glass modal box inside the ClickGUI that automatically opens after an update, displaying color-coded NEW, FIX, and IMP cards with smooth mouse-wheel scrolling."
+      "title": "Added Ghost Hand (World) to break or interact with cobwebs and custom selected blocks straight through players (Always / Hold Key, Players Only, Item Whitelist)",
+      "detail": ""
     },
     {
       "tag": "NEW",
-      "title": "ClickGUI Update Pill",
-      "detail": "Added a top-right header pill in the ClickGUI showing \"Update Ready | Apply & Close\" when a new build is staged, or \"What's New\" to reopen release notes anytime."
+      "title": "Added Auto Drain (Combat) to automatically drain enemy water and lava sources using Empty Buckets, Cobwebs, or Solid Blocks with Legit / Silent swaps, rotations, and lake protection",
+      "detail": ""
     },
     {
       "tag": "NEW",
-      "title": "One-Click Cloud Releases",
-      "detail": "Added a GitHub Actions Build & Publish Release workflow that compiles, audits, releases, mirrors latest.json, and posts to Discord from the cloud."
-    },
-    {
-      "tag": "FIX",
-      "title": "Toast Glyph & Badge Border Fix",
-      "detail": "Fixed the unsupported Unicode bullet character in the update banner subtitle and repaired the emerald icon badge border stacking."
-    },
-    {
-      "tag": "FIX",
-      "title": "Anti-Downgrade Dev Guard",
-      "detail": "Embedded Build-Release and Build-Timestamp manifest metadata so local development builds are never overwritten by older releases."
+      "title": "Added Trigger Bot Hit Mode (Always, Only Crit, Prioritize Crit, Crits + Sprint) for full control over crit and sprint-hit timing",
+      "detail": ""
     },
     {
       "tag": "NEW",
-      "title": "Duplicate Release Post Prevention",
-      "detail": "Added SHA-256 deduplication on release edits so editing release notes never double-posts to Discord."
+      "title": "Added Trigger Bot Don't Break Blocks option while using Hold Attack (automatically yields to Ghost Hand when targeting cobwebs/blocks)",
+      "detail": ""
     },
     {
       "tag": "UPD",
-      "title": "Atomic Windows Swapper",
-      "detail": "Upgraded the exit swapper to UTF-16LE Base64 -EncodedCommand with atomic same-directory rename, stealth %TEMP% marker cleanup, and orphan .tmp pruning."
+      "title": "Improved Aim Assist with a dedicated Hold Attack option and reliable keybind detection",
+      "detail": ""
+    },
+    {
+      "tag": "FIX",
+      "title": "Fixed Spear Lunge Keypress mode not showing attack click inputs on CPS counters and Keystrokes overlays",
+      "detail": ""
     },
     {
       "tag": "UPD",
-      "title": "Pre-Publish JAR Sanity Audit",
-      "detail": "GitHub Actions now verifies ZIP integrity, fabric.mod.json, and ClumpsClient.class before publishing latest.json."
+      "title": "Unhid Pearl Grapple in the Utility category so it is directly configurable from ClickGUI",
+      "detail": ""
     }
   ]
 }
