@@ -1,5 +1,50 @@
 {
-  "version": "3.1",
-  "sha256": "935d0000d4d603d5aa88787872d4ac0d4214f549c2cd318d445f88ecae0f69a4",
-  "url": "https://github.com/kulitharanmith0-a11y/clumps-releases/releases/download/EchoclientV3.1/Clumps-fabric-1.21.11-29.0.0.1.jar"
+  "version": "3.2",
+  "buildTime": 1795500933,
+  "force": false,
+  "sha256": "53b1b0887847218218901ef61e26512382401ea0c9743645f16690b51d87910e",
+  "url": "https://github.com/kulitharanmith0-a11y/clumps-releases/releases/download/EchoclientV3.2/Clumps-fabric-1.21.11-29.0.0.1.jar",
+  "summary": "What's New Changelog Box, ClickGUI Update Pill, One-Click Cloud Releases",
+  "changes": [
+    {
+      "tag": "NEW",
+      "title": "What's New Changelog Box",
+      "detail": "Added an interactive frosted-glass modal box inside the ClickGUI that automatically opens after an update, displaying color-coded NEW, FIX, and IMP cards with smooth mouse-wheel scrolling."
+    },
+    {
+      "tag": "NEW",
+      "title": "ClickGUI Update Pill",
+      "detail": "Added a top-right header pill in the ClickGUI showing \"Update Ready | Apply & Close\" when a new build is staged, or \"What's New\" to reopen release notes anytime."
+    },
+    {
+      "tag": "NEW",
+      "title": "One-Click Cloud Releases",
+      "detail": "Added a GitHub Actions Build & Publish Release workflow that compiles, audits, releases, mirrors latest.json, and posts to Discord from the cloud."
+    },
+    {
+      "tag": "FIX",
+      "title": "Toast Glyph & Badge Border Fix",
+      "detail": "Fixed the unsupported Unicode bullet character in the update banner subtitle and repaired the emerald icon badge border stacking."
+    },
+    {
+      "tag": "FIX",
+      "title": "Anti-Downgrade Dev Guard",
+      "detail": "Embedded Build-Release and Build-Timestamp manifest metadata so local development builds are never overwritten by older releases."
+    },
+    {
+      "tag": "NEW",
+      "title": "Duplicate Release Post Prevention",
+      "detail": "Added SHA-256 deduplication on release edits so editing release notes never double-posts to Discord."
+    },
+    {
+      "tag": "UPD",
+      "title": "Atomic Windows Swapper",
+      "detail": "Upgraded the exit swapper to UTF-16LE Base64 -EncodedCommand with atomic same-directory rename, stealth %TEMP% marker cleanup, and orphan .tmp pruning."
+    },
+    {
+      "tag": "UPD",
+      "title": "Pre-Publish JAR Sanity Audit",
+      "detail": "GitHub Actions now verifies ZIP integrity, fabric.mod.json, and ClumpsClient.class before publishing latest.json."
+    }
+  ]
 }
