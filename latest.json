@@ -1,35 +1,35 @@
 {
-  "version": "3.5",
-  "buildTime": 1795554683,
+  "version": "3.6",
+  "buildTime": 1795588359,
   "force": false,
-  "sha256": "1776fea86a6555543171018d2f2e2d6e09b6c4f78264d7cf6c038be5a4e1bea9",
-  "url": "https://github.com/kulitharanmith0-a11y/clumps-releases/releases/download/EchoclientV3.5/Clumps-fabric-1.21.11-29.0.0.1.jar",
-  "summary": "Breach Swap, Pearl Catch (Legit Mode), Nametags",
+  "sha256": "1bc50de27ddf19e4c77951d340060303c9fc09aae5bea378d53e20df6a83da2e",
+  "url": "https://github.com/kulitharanmith0-a11y/clumps-releases/releases/download/EchoclientV3.6/Clumps-fabric-1.21.11-29.0.0.1.jar",
+  "summary": "TriggerBot, ShieldBreaker, AutoMaceSwap & AutoMace",
   "changes": [
     {
-      "tag": "NEW",
-      "title": "Breach Swap",
-      "detail": "New combat module that performs same-tick weapon -> Breach mace attribute swaps on attack (manual clicks and Trigger Bot) and returns to your weapon so you shred armor at sword speed, with Min Breach, Only Crits, Only Armored, Ignore Shields, Skip Smash Falls, and Return Delay settings."
+      "tag": "FIX",
+      "title": "TriggerBot",
+      "detail": "Fixed missed hits on fallback targets and improved hitbox-edge acquisition stability"
+    },
+    {
+      "tag": "FIX",
+      "title": "ShieldBreaker",
+      "detail": "Fixed swap-back failing to restore your previous slot and fixed Click-mode Stun not working"
+    },
+    {
+      "tag": "FIX",
+      "title": "AutoMaceSwap & AutoMace",
+      "detail": "Fixed shield breaks while rising upward, stopped jump/ground axe swaps, and significantly improved stun-slam consistency"
     },
     {
       "tag": "NEW",
-      "title": "Pearl Catch (Legit Mode)",
-      "detail": "Hold Right Click while holding an Ender Pearl to throw the pearl naturally and automatically follow up with a Wind Charge catch, with configurable Legit Delay and visible-only Legit Auto Aim (releasing early cancels cleanly)."
+      "title": "AutoWeb",
+      "detail": "Added speed-adaptive velocity & acceleration prediction with dynamic rotation speed and step-height collision checks"
     },
     {
       "tag": "NEW",
-      "title": "Nametags",
-      "detail": "New StreamProof-compatible render module hiding vanilla labels and rendering custom nametag pills with health/absorption, ping, distance, armor & held item icons, durability bars, and compact enchant badges."
-    },
-    {
-      "tag": "NEW",
-      "title": "Base Finder",
-      "detail": "New zero-lag chunk tile-entity scanner that clusters player storage, Shulkers, Ender Chests, Beacons, Spawners, and workstations into BASE/STASH/SPAWNER groups with natural chest filtering, 3D boxes/tracers, 2D cluster labels, and discovery coordinate notifications."
-    },
-    {
-      "tag": "NEW",
-      "title": "XRay",
-      "detail": "Added quick preset groups (Ancient Debris, Storage, Spawners & Vaults, Utility) plus palette-accelerated color-coded 3D Highlight Blocks and Tracers (also works in StreamProof mode)."
+      "title": "CartRefill",
+      "detail": "Added Fill Selected Slots mode that refills minecarts into your chosen slots even when they currently hold blocks or other items"
     }
   ]
 }
