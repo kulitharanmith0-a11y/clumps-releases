@@ -1,35 +1,30 @@
 {
-  "version": "3.6",
-  "buildTime": 1795588359,
+  "version": "3.6.1",
+  "buildTime": 1795612335,
   "force": false,
-  "sha256": "1bc50de27ddf19e4c77951d340060303c9fc09aae5bea378d53e20df6a83da2e",
-  "url": "https://github.com/kulitharanmith0-a11y/clumps-releases/releases/download/EchoclientV3.6/Clumps-fabric-1.21.11-29.0.0.1.jar",
-  "summary": "TriggerBot, ShieldBreaker, AutoMaceSwap & AutoMace",
+  "sha256": "3072bb33a6e079a39f96faa267eab9880657caf48a52727b831ad4c707e73d33",
+  "url": "https://github.com/kulitharanmith0-a11y/clumps-releases/releases/download/EchoclientV3.6.1/Clumps-fabric-1.21.11-29.0.0.1.jar",
+  "summary": "TriggerBot, AutoUpdater, AutoTotem",
   "changes": [
     {
       "tag": "FIX",
       "title": "TriggerBot",
-      "detail": "Fixed missed hits on fallback targets and improved hitbox-edge acquisition stability"
+      "detail": "Fixed Normal crit mode swinging while sprinting and improved jump-crit timing for consistent critical hits"
     },
     {
       "tag": "FIX",
-      "title": "ShieldBreaker",
-      "detail": "Fixed swap-back failing to restore your previous slot and fixed Click-mode Stun not working"
+      "title": "AutoUpdater",
+      "detail": "Switched to uncached latest-release checks with background & pre-exit refresh so updates always jump straight to the latest version"
+    },
+    {
+      "tag": "NEW",
+      "title": "AutoTotem",
+      "detail": "Added Health Swap (Equip Below, Restore Above, and Restore Item Previous/Shield)"
     },
     {
       "tag": "FIX",
-      "title": "AutoMaceSwap & AutoMace",
-      "detail": "Fixed shield breaks while rising upward, stopped jump/ground axe swaps, and significantly improved stun-slam consistency"
-    },
-    {
-      "tag": "NEW",
-      "title": "AutoWeb",
-      "detail": "Added speed-adaptive velocity & acceleration prediction with dynamic rotation speed and step-height collision checks"
-    },
-    {
-      "tag": "NEW",
-      "title": "CartRefill",
-      "detail": "Added Fill Selected Slots mode that refills minecarts into your chosen slots even when they currently hold blocks or other items"
+      "title": "Security & Cleanup",
+      "detail": "Major client cleanup, smaller JAR size, encrypted strings & assets, and stronger release obfuscation"
     }
   ]
 }
