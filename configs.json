@@ -1,0 +1,221 @@
+{
+    "updatedAt":  1795673903313,
+    "configs":  [
+                    {
+                        "id":  "legit-sword-pvp",
+                        "serverName":  "PvP Duels",
+                        "data":  {
+                                     "settings":  [
+                                                      {
+                                                          "name":  "6002a7db",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "6d53bf3a",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "ffc3dc09",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "08e7a7b8",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "d53d9208",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "cd2702aa",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "92245c54",
+                                                          "vis":  true,
+                                                          "enabled":  false
+                                                      },
+                                                      {
+                                                          "name":  "b312683d",
+                                                          "vis":  true,
+                                                          "enabled":  false
+                                                      }
+                                                  ]
+                                 },
+                        "createdAt":  1795673903313,
+                        "type":  "GHOST",
+                        "description":  "Clean ghost sword \u0026 shield duels preset",
+                        "author":  "Community",
+                        "serverIp":  "",
+                        "name":  "Legit Sword PvP",
+                        "updatedAt":  1795673903313
+                    },
+                    {
+                        "id":  "crystal-pvp-starter",
+                        "serverName":  "Crystal PvP",
+                        "data":  {
+                                     "settings":  [
+                                                      {
+                                                          "name":  "92245c54",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "b37feb77",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "b312683d",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "c93f901d",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "aa6461ae",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "d392eed7",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "ffc3dc09",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "d8bc1b4e",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      }
+                                                  ]
+                                 },
+                        "createdAt":  1795673903313,
+                        "type":  "RAGE",
+                        "description":  "Fast crystal, anchor, and double-hand survival setup",
+                        "author":  "Community",
+                        "serverIp":  "",
+                        "name":  "Crystal PvP Starter",
+                        "updatedAt":  1795673903313
+                    },
+                    {
+                        "id":  "mace-wind-pvp",
+                        "serverName":  "Mace SMP",
+                        "data":  {
+                                     "settings":  [
+                                                      {
+                                                          "name":  "044632ad",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "b0bcff35",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "6002a7db",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "d392eed7",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "9ea96805",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "c93f901d",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "ffc3dc09",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      }
+                                                  ]
+                                 },
+                        "createdAt":  1795673903313,
+                        "type":  "GHOST",
+                        "description":  "Mace swap, breach swap, and pearl catch combo preset",
+                        "author":  "Community",
+                        "serverIp":  "",
+                        "name":  "Mace \u0026 Wind PvP",
+                        "updatedAt":  1795673903313
+                    },
+                    {
+                        "id":  "smp-utility",
+                        "serverName":  "Survival SMP",
+                        "data":  {
+                                     "settings":  [
+                                                      {
+                                                          "name":  "c93f901d",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "d392eed7",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "9ea96805",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "7461fa1c",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "1feeb94e",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "ebb32cc5",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "ffc3dc09",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      },
+                                                      {
+                                                          "name":  "d8bc1b4e",
+                                                          "vis":  true,
+                                                          "enabled":  true
+                                                      }
+                                                  ]
+                                 },
+                        "createdAt":  1795673903313,
+                        "type":  "GHOST",
+                        "description":  "Survival essentials with pearl markers, auto totem, and auto tool",
+                        "author":  "Community",
+                        "serverIp":  "",
+                        "name":  "SMP \u0026 Utility",
+                        "updatedAt":  1795673903313
+                    }
+                ],
+    "version":  1
+}
