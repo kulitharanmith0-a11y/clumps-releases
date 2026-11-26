@@ -1,30 +1,30 @@
 {
-  "version": "3.6.2",
-  "buildTime": 1795659708,
-  "force": false,
-  "sha256": "f097900d132de64bfeb2f765c6ae29ea8d0b2a241863f3cb80d1e95ff4a584ab",
-  "url": "https://github.com/kulitharanmith0-a11y/clumps-releases/releases/download/EchoclientV3.6.2/Clumps-fabric-1.21.11-29.0.0.1.jar",
-  "summary": "Obfuscated Build Startup & Loading Freeze, Build Verification Gate, AutoUpdater Live Toast",
-  "changes": [
-    {
-      "tag": "FIX",
-      "title": "Obfuscated Build Startup & Loading Freeze",
-      "detail": "Fixed EventBus signature resolution, @Subscribe annotation defaults, and Mixin field initialization under stripped bytecode so the client boots cleanly to the main menu"
-    },
-    {
-      "tag": "NEW",
-      "title": "Build Verification Gate",
-      "detail": "Added automated bytecode checks for stale internal references, annotation defaults, and Mixin constructor safety"
-    },
-    {
-      "tag": "NEW",
-      "title": "AutoUpdater Live Toast",
-      "detail": "Added an in-game \"Update ready to install\" HUD notification when a newer release finishes staging in the background while Minecraft is already running"
-    },
-    {
-      "tag": "NEW",
-      "title": "SelfDestruct Memory Hygiene",
-      "detail": "Added vaulted asset cache clearing and encrypted string table wiping during SelfDestruct cleanup"
-    }
-  ]
+    "version":  "3.6.3",
+    "buildTime":  1795674129,
+    "force":  false,
+    "sha256":  "4a5cb4a37fd1a93258ad9e0d590565677acedd7c82f62e36cfabe4715911e02c",
+    "url":  "https://github.com/kulitharanmith0-a11y/clumps-releases/releases/download/v3.6.3/Clumps-fabric-1.21.11-29.0.0.1.jar",
+    "summary":  "Cloud Configs \u0026 Share Codes, GUI Themes, XBow Delays, StreamProof Fullscreen \u0026 Combat Fixes",
+    "changes":  [
+                    {
+                        "tag":  "NEW",
+                        "title":  "Cloud Configs \u0026 Share Codes",
+                        "detail":  "Browse community presets in-game with one-click Add, Refresh, and Update, plus clipboard CFG1 share-code copy and import"
+                    },
+                    {
+                        "tag":  "NEW",
+                        "title":  "GUI Appearance \u0026 Themes",
+                        "detail":  "Added Obsidian, Emerald, Midnight Violet, Ocean Blue, Crimson, and Custom themes with accent/panel color, opacity, blur, dim, and UI scale"
+                    },
+                    {
+                        "tag":  "NEW",
+                        "title":  "XBow Stage Delays \u0026 TriggerBot Miss Chance",
+                        "detail":  "Added per-stage XBow timing sliders, TriggerBot quick-swap cooldown tracking, and a Miss Chance slider"
+                    },
+                    {
+                        "tag":  "FIX",
+                        "title":  "PearlCatch, PearlGrapple \u0026 StreamProof Fullscreen",
+                        "detail":  "Fixed PearlCatch Legit Mode and eliminated solver lag spikes, aligned MC 1.21.11 pearl physics, fixed SilentAim strafe snap, TotemHit silent swap, and StreamProof fullscreen stability"
+                    }
+                ]
 }
