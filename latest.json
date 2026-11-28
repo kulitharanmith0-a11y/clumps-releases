@@ -1,30 +1,8 @@
-﻿{
-    "version":  "3.7.5",
-    "buildTime":  1795847056,
-    "force":  false,
-    "sha256":  "43afdcaf9a64a42c2087780ccc7e746d7416131e99111a0ad35fcef302981162",
-    "url":  "https://github.com/kulitharanmith0-a11y/clumps-releases/releases/download/v3.7.5/Clumps-fabric-1.21.11-29.0.0.1.jar",
-    "summary":  "StreamProof 2.0 (OBS Game Capture \u0026 Performance), Rotation \u0026 PearlCatch Fix, Split-Inspector Cloud Configs, Safe XBow \u0026 Memory String Hygiene",
-    "changes":  [
-                    {
-                        "tag":  "FIX",
-                        "title":  "Silent Rotation, AimAssist \u0026 PearlCatch Fixed",
-                        "detail":  "Resolved bytecode unary-negation corruption that caused AimAssist Smooth/Natural modes to lock onto sky/ground and prevented PearlCatch from solving and firing wind charges; hardened PearlCatch retry \u0026 instant throw paths"
-                    },
-                    {
-                        "tag":  "NEW",
-                        "title":  "StreamProof 2.0 (OBS Game Capture \u0026 Smart Idle Bypass)",
-                        "detail":  "Zero-SwapBuffers Win32 layered presentation hides overlays from OBS Game Capture and Display Capture in borderless fullscreen, adds Smart Idle Bypass (0 ms idle cost), cached LibFFI calls, and a StreamProof FPS cap (60/120/Uncapped)"
-                    },
-                    {
-                        "tag":  "NEW",
-                        "title":  "Split-Inspector Cloud Configs \u0026 Background Media Polish",
-                        "detail":  "Redesigned Cloud Configs browser with category filters, live included-module inspector, Refresh/Update controls, plus Ctrl+V paste, inline Browse/Clear, and full PNG/JPG/GIF/MP4 support for ClickGUI background media"
-                    },
-                    {
-                        "tag":  "NEW",
-                        "title":  "Safe XBow \u0026 Runtime Memory String Hygiene",
-                        "detail":  "Added XBow Safe mode with Slab Delay (bottom slabs only after firing), eliminated static runtime string caches \u0026 StringConcatFactory leaks, and tightened SelfDestruct direct cleanup"
-                    }
-                ]
+{
+  "version": "3.7.5",
+  "buildTime": 1795847056,
+  "sha256": "43afdcaf9a64a42c2087780ccc7e746d7416131e99111a0ad35fcef302981162",
+  "url": "https://github.com/kulitharanmith0-a11y/clumps-releases/releases/download/v3.7.5/Clumps-fabric-1.21.11-29.0.0.1.jar",
+  "summary": "Latest improvements and bug fixes",
+  "changes": []
 }
